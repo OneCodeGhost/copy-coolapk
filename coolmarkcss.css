@@ -1,0 +1,114 @@
+.top-header{
+    height:80px;
+    background-color:rgb(45, 163, 175);
+    width:100%;
+    box-shadow:0 5px 20px #ccc;
+}
+
+.left-div{
+    float:left;
+}
+.list-button{
+    display:inline-block;
+    width:80px;
+    line-height: 80px;
+    text-align:center;
+}
+.list-button i{
+    font-size:18px;
+    color:#fff;
+}
+.left-div span{
+    color:#fff;
+    font-weight:400;
+    font-size:20px;
+    font-family:微软雅黑;
+    user-select:none;
+    cursor:default;
+}
+.right-div{
+    float:right;
+    padding-right:20px;
+}
+.right-div button{
+    display:inline-block;
+    border:none;
+    background-color:rgb(45, 163, 175);
+    outline:none;
+    line-height:78px;
+    color:#fff;
+    font-size:20px;
+    min-width:32px;
+    margin-right: 10px;
+
+}
+
+.home{
+    font-size:20px;
+    min-width:32px;
+    color:#fff;
+    margin-right:10px;
+}
+.home:hover{
+    color:#fff;
+}
+
+
+
+div.main-content{
+    width:680px;
+    margin:6% auto;
+    box-shadow:0 4px 8px #ccc;
+}
+
+ul.content-list{
+    list-style:none;
+    padding:30px 60px 5px;
+}
+li.one-content{
+    margin-bottom:40px;
+    position:relative;
+}
+.public-content{
+    width:80%;
+    height:52px;
+    cursor:default;
+}
+
+.public-content span:last-child{
+    margin-top:10px;
+    display:table;
+    color:rgb(110, 110, 110);
+}
+.last-second{
+    display:table;
+    margin-top:10px;
+    color:rgb(110, 110, 110);
+}
+.last-imp{
+    display:inline-block;
+    color:rgb(110, 110, 110);
+    margin:0 !important;
+}
+.see-more:hover{
+    text-decoration:none;
+}
+.introduct{
+    font-size:18px;
+    margin-left:-5px;
+}
+.apply-for{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.apply-for button{
+    padding:0 24px;
+    line-height:35px;
+    background-color:rgb(45, 163, 175);
+    outline:none;
+    border:none;
+    color:#fff;
+    border-radius:2px;
+    box-shadow:0 6px 6px #c9c9c9;
+}
